@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Lista de Usuarios Actualizados por API Spring boot Swagger/ Apache CAMEL / Angular</h2>
+  <table border="1" width="100%">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombres</th>
+        <th>Apellidos</th>
+        <th>Correo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios">
+        <td>{{ usuario.id }}</td>
+        <td>{{ usuario.nombres }}</td>
+        <td>{{ usuario.apellidos }}</td>
+        <td>{{ usuario.correo }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
